@@ -11,7 +11,7 @@ module Searchify
     end
     
     def display_name
-      @display_name || name.titleize
+      @display_name || key_name.titleize
     end
     
     def key_name
